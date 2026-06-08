@@ -4,9 +4,7 @@ import cv2
 from ultralytics import YOLO
 
 
-# =====================================
-# Настройки
-# =====================================
+
 
 IMAGES_DIR = "images"
 OUTPUT_DIR = "output"
@@ -15,9 +13,7 @@ TARGET_CLASS = "cell phone"
 CONFIDENCE_THRESHOLD = 0.5
 
 
-# =====================================
-# Вспомогательные функции
-# =====================================
+
 
 def create_output_directory():
     os.makedirs(OUTPUT_DIR, exist_ok=True)
